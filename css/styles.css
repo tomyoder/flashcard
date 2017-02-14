@@ -1,0 +1,18 @@
+.flashcard {
+  width: 30%;
+  background-color: #d6d6d6;
+  margin: 4px;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+#definition-showing {
+  display: none;
+}
