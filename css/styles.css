@@ -2,6 +2,7 @@
   width: 30%;
   background-color: #d6d6d6;
   margin: 4px;
+
 }
 
 .clickable {
@@ -13,6 +14,13 @@
   text-decoration: underline;
 }
 
-#definition-showing {
+#javascript-definition, #operators-definition, #variables-definition,
+#variable-naming-conventions-definition, #functions-definition, #methods-definition, #arguements-definition, #parameters-definition,
+#return-definition, #chaining-methods-definition, #strings-definition, #booleans-definition, #undefined-definition, #nan-definition, #escape-definition, #alert-definition, #comments-definition, #jquery-definition, #attributes-definition {
   display: none;
+}
+
+.outline {
+  border-width: 5px;
+  border-color: black;
 }
